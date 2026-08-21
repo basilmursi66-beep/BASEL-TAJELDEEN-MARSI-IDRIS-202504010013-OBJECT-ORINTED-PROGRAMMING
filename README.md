@@ -14,14 +14,14 @@ The repository comprises of individual folders, where each folder contains a tut
 
 | Tutorial       | Main Content                                            |
 | -------------- | ------------------------------------------------------- |
-| `tutorial_1`   | Classes, objects, attributes, constructors, and methods |
-| `tutorial_2`   | Java class and object exercises                         |
-| `tutorial_3-4` | Inheritance and relationships between classes           |
-| `tutorial_5`   | Object-oriented programming practice and documentation  |
-| `tutorial_6`   | Inheritance using employee and lecturer classes         |
-| `tutorial_7`   | Abstract classes / inheritance using appliances         |
-| 'tutorial_8-9' | Practical tutorial work included in the repository      |
-| `tutolrial_10` | Java GUI quiz application                               |
+| `week_1`       | Classes, objects, attributes, constructors, and methods |
+| `week_2`       | Java class and object exercises                         |
+| `week_3-4`     | Inheritance and relationships between classes           |
+| `week_5`       | Object-oriented programming practice and documentation  |
+| `week_6`       | Inheritance using employee and lecturer classes         |
+| `week_7`       | Abstract classes / inheritance using appliances         |
+| 'week_8-9'     | Practical tutorial work included in the repository      |
+| `week_10`      | Java GUI quiz application                               |
 ---
 
 ## 🗂️ Project Structure
@@ -29,42 +29,42 @@ The repository comprises of individual folders, where each folder contains a tut
 ```text
 
 │
-├── tutorial_1/
+├── week_1/
 │   ├── Student.java
 │   └── main.java
 │
-├── tutorial_2/
+├── week_2/
 │   ├── Student.java
 │   └── main.java
 │
-├── tutorial_3/
+├── week_3/
 │   ├── Person.java
 │   ├── Student.java
 │   ├── Lecturer.java
 │   └── Main.java
 │
-├── tutorial_5/
+├── week_5/
 │   ├── Student.java
 │   ├── main.java
 │   └── docementation.txt
 │
-├── tutorial_6/
+├── week_6/
 │   ├── employee.java
 │   ├── lecturer.java
 │   └── main.java
 │
-├── tutorial_7/
+├── week_7/
 │   ├── Applience.java
 │   ├── Microwave.java
 │   ├── WashingMachine.java
 │   └── Main.java
 |
-|── tutorial_8-9/
+|── week_8-9/
 |   |── Main.java
 |   |── Save.java
 |   |── task.txt
 │
-├── tutolrial_10/
+├── week_10/
 │   ├── Questions.java
 │   └── QuizBattleGUI.java
 │
@@ -97,7 +97,7 @@ The repository comprises of individual folders, where each folder contains a tut
 
 The first tutorials give an introduction to the basic organization of Java classes.
 
-For instance, `tutorial_1` has a class named `Student` which has attributes like:
+For instance, `week_1` has a class named `Student` which has attributes like:
 
 * Name
 * Age
@@ -149,7 +149,7 @@ takeExsam()
 
 Later tutorials will present relationships between classes.
 
-For instance, in tutorial_3 is available:
+For instance, in week_3 is available:
 
 * `Person`
 * `Student`
@@ -162,7 +162,7 @@ This will give some experience in object oriented design and the creation of rel
 
 ### 5. Employee and Lecturer Classes
 
-The `tutorial_6` example builds upon the concept of object-oriented relationships in the following ways:
+The `week_6` example builds upon the concept of object-oriented relationships in the following ways:
 
 ```text
 employee
@@ -176,7 +176,7 @@ The tutorial contains separate classes for employees and lecturers together with
 
 ### 6. Abstract Classes and Appliances
 
-`tutorial_7` requires the use of appliance related classes:
+`week_7` requires the use of appliance related classes:
 
 * `Applience`
 * `Microwave`
@@ -191,7 +191,7 @@ This exercise is an opportunity to practice creating a parent class and specific
 
 A small quiz-application is provided in the last tutorial of the repository.
 
-The `tutolrial_10` folder includes:
+The `week_10` folder includes:
 
 ```text
 Questions.java
@@ -230,7 +230,7 @@ BASEL-TAJELDEEN-MARSI-IDRIS-202504010013-OBJECT-ORINTED-PROGRAMMING
 For example:
 
 ```bash
-cd tutorial_1
+cd week_1
 javac Student.java main.java
 ```
 
